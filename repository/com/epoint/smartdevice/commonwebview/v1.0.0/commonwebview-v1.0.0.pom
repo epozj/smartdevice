@@ -70,22 +70,40 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>SmartDevice</groupId>
-      <artifactId>common</artifactId>
-      <version>unspecified</version>
+      <groupId>com.epoint.android</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.5.0.a</version>
       <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>plugin</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.jakewharton</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
-      <groupId>SmartDevice</groupId>
-      <artifactId>commonbusiness</artifactId>
-      <version>unspecified</version>
+      <groupId>com.epoint.android</groupId>
+      <artifactId>core</artifactId>
+      <version>7.5.1</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>SmartDevice</groupId>
-      <artifactId>arcsoftface</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.jakewharton</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>SmartDevice</groupId>
