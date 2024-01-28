@@ -53,6 +53,7 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>com.epoint.ejs</groupId>
       <artifactId>ejs-3.5.1</artifactId>
       <type>aar</type>
       <scope>compile</scope>
