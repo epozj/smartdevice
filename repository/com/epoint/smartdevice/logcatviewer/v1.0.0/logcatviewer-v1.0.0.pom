@@ -8,9 +8,21 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>SmartDevice</groupId>
-      <artifactId>common</artifactId>
-      <version>unspecified</version>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.0.1</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
