@@ -3,10 +3,11 @@
   <groupId>com.epoint.smartdevice</groupId>
   <artifactId>commonbusiness</artifactId>
   <versioning>
-    <release>v1.0.0</release>
+    <release>v1.0.1</release>
     <versions>
       <version>v1.0.0</version>
+      <version>v1.0.1</version>
     </versions>
-    <lastUpdated>20240128022041</lastUpdated>
+    <lastUpdated>20240128023603</lastUpdated>
   </versioning>
 </metadata>

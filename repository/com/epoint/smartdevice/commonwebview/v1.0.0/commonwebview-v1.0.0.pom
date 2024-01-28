@@ -14,6 +14,45 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.epoint.smartdevice</groupId>
+      <artifactId>common</artifactId>
+      <version>v0.0.1</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.epoint.smartdevice</groupId>
+      <artifactId>commonbusiness</artifactId>
+      <version>v1.0.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.epoint.smartdevice</groupId>
+      <artifactId>arcsoftface</artifactId>
+      <version>v1.0.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <artifactId>ejs-3.5.1</artifactId>
       <type>aar</type>
       <scope>compile</scope>
