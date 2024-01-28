@@ -53,18 +53,6 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.epoint.ejs</groupId>
-      <artifactId>ejs-3.5.1</artifactId>
-      <type>aar</type>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>com.tencent.tbs</groupId>
       <artifactId>tbssdk</artifactId>
       <version>44226</version>
