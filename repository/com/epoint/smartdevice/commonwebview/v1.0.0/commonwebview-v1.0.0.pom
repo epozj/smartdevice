@@ -19,12 +19,6 @@
       <version>v0.0.1</version>
       <type>aar</type>
       <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>com.epoint.smartdevice</groupId>
@@ -51,54 +45,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>com.tencent.tbs</groupId>
-      <artifactId>tbssdk</artifactId>
-      <version>44226</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.epoint.android</groupId>
-      <artifactId>ui</artifactId>
-      <version>1.5.0.a</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>com.android.support</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>plugin</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>com.jakewharton</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>com.epoint.android</groupId>
-      <artifactId>core</artifactId>
-      <version>7.5.1</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>com.android.support</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>com.jakewharton</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>SmartDevice</groupId>
-      <artifactId>LiveWidget</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>

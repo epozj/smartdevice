@@ -80,6 +80,18 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>com.tencent.tbs</groupId>
+      <artifactId>tbssdk</artifactId>
+      <version>44226</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>org.eclipse.paho</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>com.epoint.android</groupId>
       <artifactId>core</artifactId>
       <version>7.5.1</version>
@@ -96,6 +108,18 @@
         <exclusion>
           <artifactId>*</artifactId>
           <groupId>com.jakewharton</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.youth.banner</groupId>
+      <artifactId>banner</artifactId>
+      <version>1.4.10</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>org.eclipse.paho</groupId>
         </exclusion>
       </exclusions>
     </dependency>
